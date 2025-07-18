@@ -39,7 +39,7 @@ These strategies raised the maximum evaluation accuracy of the ResNet model from
 
 Given more time, I planned to run a hyperparameter grid search. But with only 2.5 hours, I pivoted to a random search strategy — though I was ultimately cut short on time before I could run it. Regardless, I presented my work effectively to the class, using visualizations to explain my modeling decisions, observations, and results.
 
-After the hackathon ended, I decided to revisit the project on my own given that Cancer Detection is a personal challenge to me. Motivated by the real-world stakes, I ran a random search selecting 6 at a time on 144 possible hyperparameter combinations. After multiple iterations, I identified a high-performing combination:
+Given that Cancer Detection is personal to me, I decided to revisit the project after the hackathon ended. Motivated by the real-world stakes, I ran a random search multiple times, selecting 6 combinations per search on 144 possible hyperparameter combinations. After multiple iterations, I identified a high-performing combination:
 224 neurons, 4 epochs, learning rate of 0.0001, and batch size of 64.
 When I trained the model with this configuration, the results were impressive. The validation accuracy after 1 epoch when training for 4 jumped to 95%, far exceeding all prior results.
 
