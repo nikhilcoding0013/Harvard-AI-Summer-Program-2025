@@ -37,7 +37,7 @@ These strategies raised the maximum evaluation accuracy of the ResNet model from
 
 <img width="960" height="480" alt="Untitled presentation (1)" src="https://github.com/user-attachments/assets/e686c6d2-e908-406b-8c69-387c53a8f881" />
 
-Given more time, I planned to run a hyperparameter grid search. But with only 2.5 hours, I pivoted to a random search strategy — though I was ultimately cut short before I could run it. Still, I presented my work effectively to the class, using visualizations to explain my modeling decisions, observations, and results.
+Given more time, I planned to run a hyperparameter grid search. But with only 2.5 hours, I pivoted to a random search strategy — though I was ultimately cut short on time before I could run it. Regardless, I presented my work effectively to the class, using visualizations to explain my modeling decisions, observations, and results.
 
 After the hackathon ended, I decided to revisit the project on my own given that Cancer Detection is a personal challenge to me. Motivated by the real-world stakes, I ran a random search selecting 6 at a time on 144 possible hyperparameter combinations. After multiple iterations, I identified a high-performing combination:
 224 neurons, 4 epochs, learning rate of 0.0001, and batch size of 64.
